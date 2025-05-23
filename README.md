@@ -2,7 +2,7 @@
 
 A lightweight LAN anomaly detection tool for IT/Home network monitoring and blue team defense. It currently scans all DNS requests on your network and checks for suspicious requests using an extremely large dataset of known malicious domains. It will also notify you if it sees any potential ARC spoofing. Most of the time you will see nothing while it is running unless you or a device on your network attempts to connect to a suspicious domain. 
 
-For example, a cheap smart thermostat you bought from China that is secretly sending your data to a bad actor overseas would be caught by ShadowNet it would warn you, assuming the domain is already known to be suspicious.
+For example, a cheap smart thermostat you bought from China that is secretly sending your data to a bad actor overseas would be caught by ShadowNet and it would warn you, assuming the domain is already known to be suspicious.
 
 #### NOTE: A version of Npcap must be installed on the system for ShadowNet to run correctly. It is free and can be found here: https://npcap.com/#download
 
